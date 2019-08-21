@@ -104,7 +104,7 @@ def changing_alan
         }
      }
      alans_new_info = "GUI"
-     programmer_hash.update()
+     programmer_hash[:alan_kay].update(:known_for, alans_new_info)
      
      
 end
